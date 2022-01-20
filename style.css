@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+
+}
+.nav{
+    height: 45px;
+    
+}
+ul{
+    display: flex;
+    
+}
+.social{
+    flex: 1;
+    margin-left:20px;
+    background-color:#00d1b2;
+    margin-right:10px;
+    
+}
+#logo{
+    height:95px;
+}
+.main2{
+    max-width: 970px;
+}
+
+
+mai {
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+    column-count:2;
+    
+}
+
+.column1{
+    column-span: 1;
+    column-rule-width:1px;
+    width: 50%;
+    border: 1px dotted blue;
+}
+
+.column2 {
+    column-span:2;
+    column-rule-width:1px;
+    width: 50%;
+    border: 1px dotted green;
+}
